@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SuperMarket.Staff" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAABEiAAAQIgBAAgJBQAIQQAAAAUAAACFBAAAACQAAA=</HashCode>
+      <FileName>Staff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.StaffArrange" Collapsed="true">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAQIAAAAAIBAAAQAAAAAAAAACAAAAAACAAAA=</HashCode>
+      <FileName>StaffArrange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.StaffCashier" Collapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAQIAAAAAIBAAAQAAAAAAAAACAAAAAACAAAA=</HashCode>
+      <FileName>StaffCashier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.StaffCleaner" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAQIAAAAAIBAAAQAAAAAAAAACAAAAAACAAAA=</HashCode>
+      <FileName>StaffCleaner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.StaffGuard" Collapsed="true">
+    <Position X="9.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAQIAAAAAIBAAAQAAAAAAAAACAAAAAACAAAA=</HashCode>
+      <FileName>StaffGuard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.StaffManager" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAQIAAAAAIBAAAQAAAAAAAAACAAAAAACAAAA=</HashCode>
+      <FileName>StaffManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.StaffValet" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAQIAAAAAIBAAAQAAAAAAAAACAAAAAACAAAA=</HashCode>
+      <FileName>StaffValet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.StaffWarehouseManager" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAQIAAAAAIBAAAQAAAAAAAAACAAAAAACAAAA=</HashCode>
+      <FileName>StaffWarehouseManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.Goods" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABABAAAQAQgMAAAIDAAAAAAAAAAACAAAAAgAAAAAA=</HashCode>
+      <FileName>Goods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.GoodsDiscount" Collapsed="true">
+    <Position X="12.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAABAAAAAAAEAAAAAAAAgAAgAAAAA=</HashCode>
+      <FileName>GoodsDiscount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.GoodsInventory" Collapsed="true">
+    <Position X="14.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAgAAAAFAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GoodsInventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.GoodsOutOfDate" Collapsed="true">
+    <Position X="16.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAACEACAAgAAAAAAAgAAA=</HashCode>
+      <FileName>GoodsOutOfDate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.GoodsPotential" Collapsed="true">
+    <Position X="18" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GoodsPotential.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.Custumer" Collapsed="true">
+    <Position X="23.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKBAgAAAwAIAAJAAAEAQQCAAEAIAgAAggAAIIICAAI=</HashCode>
+      <FileName>Custumer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.CustumerBronze" Collapsed="true">
+    <Position X="21.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustumerBronze.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.CustumerUnrank" Collapsed="true">
+    <Position X="19.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustumerUnRank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.CustumerSilver" Collapsed="true">
+    <Position X="23.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustumerSilver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.CustumerGold" Collapsed="true">
+    <Position X="25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustumerGold.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.CustumerDiamond" Collapsed="true">
+    <Position X="26.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustumerDiamond.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.Supplier" Collapsed="true">
+    <Position X="29.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAIAAAQSgAgFAAAAIAAAACAAAAAAAAAQgAAQAIA=</HashCode>
+      <FileName>Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuperMarket.Revenue" Collapsed="true">
+    <Position X="32.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Revenue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
