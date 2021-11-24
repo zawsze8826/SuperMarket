@@ -28,7 +28,6 @@ namespace SuperMarket
                     good.Price = g.Price;
                     good.MFG = g.MFG;
                     good.EXP = g.EXP;
-                    good.Vat = g.Vat;
                     good.Quantity = g.Quantity;
                     OutOfDateList.Add(good);
                 }
@@ -52,7 +51,7 @@ namespace SuperMarket
         {
             foreach(Goods go in OutOfDateList)
             {
-                Console.WriteLine("{0} {1} {2} {3} {4} {5} {6} {7}", go.IDGoods, go.NameGoods, go.PurchasePrice, go.Price, go.MFG.ToString("dd/MM/yyyy"), go.EXP.ToString("dd/MM/yyyy"), go.Quantity, go.Vat);
+                Console.WriteLine("{0} {1} {2} {3} {4} {5} {6}", go.IDGoods, go.NameGoods, go.PurchasePrice, go.Price, go.MFG.ToString("dd/MM/yyyy"), go.EXP.ToString("dd/MM/yyyy"), go.Quantity);
             }
         }
     }

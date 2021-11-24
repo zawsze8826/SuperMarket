@@ -43,8 +43,6 @@ namespace SuperMarket
             Console.Write("Nhap so luong mua ve:");
             go.Quantity = Convert.ToInt32(Console.ReadLine());
 
-            go.Vat = (double)(go.PurchasePrice * go.Quantity * 10) / (double)100;
-
             Console.Write("Nhap ngay san xuat:");
             int day = Convert.ToInt32(Console.ReadLine());
             int month = Convert.ToInt32(Console.ReadLine());
@@ -75,7 +73,7 @@ namespace SuperMarket
         {
             foreach (Goods go in SuperMarket.InventorieList)
             {
-                Console.WriteLine("{0} {1} {2} {3} {4} {5} {6} {7}", go.IDGoods, go.NameGoods, go.PurchasePrice, go.Price, go.MFG.ToString("dd/MM/yyyy"), go.EXP.ToString("dd/MM/yyyy"), go.Quantity, go.Vat);
+                Console.WriteLine("{0} {1} {2} {3} {4} {5} {6}", go.IDGoods, go.NameGoods, go.PurchasePrice, go.Price, go.MFG.ToString("dd/MM/yyyy"), go.EXP.ToString("dd/MM/yyyy"), go.Quantity);
             }
         }
     }

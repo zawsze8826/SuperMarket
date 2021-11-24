@@ -48,7 +48,7 @@ namespace SuperMarket
         {
             foreach (Goods go in DiscountList)
             {
-                Console.WriteLine("{0} {1} {2} {3} {4} {5} {6} {7}", go.IDGoods, go.NameGoods, go.PurchasePrice, go.Price, go.MFG.ToString("dd/MM/yyyy"), go.EXP.ToString("dd/MM/yyyy"), go.Quantity, go.Vat);
+                Console.WriteLine("{0} {1} {2} {3} {4} {5} {6}", go.IDGoods, go.NameGoods, go.PurchasePrice, go.Price, go.MFG.ToString("dd/MM/yyyy"), go.EXP.ToString("dd/MM/yyyy"), go.Quantity);
             }
         }
     }

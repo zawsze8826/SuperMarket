@@ -103,39 +103,39 @@ namespace SuperMarket
 
 
 
-            //Console.WriteLine("1.Them hang hoa");
-            //Console.WriteLine("2.Xuat hang ton kho");
-            //Console.WriteLine("3.Xuat hang het han");
-            //GoodsInventory inventory = new GoodsInventory();
-            //GoodsOutOfDate outOfDate = new GoodsOutOfDate();
-            //while (true)
-            //{
-            //    int key = Convert.ToInt32(Console.ReadLine());
-            //    switch (key)
-            //    {
-            //        case 1:
-            //            {
-            //                inventory.AddGoods();
-            //                break;
-            //            }
-            //        case 2:
-            //            {
-            //                inventory.Display();
-            //                break;
-            //            }
-            //        case 3:
-            //            {
-            //                outOfDate.AddGoods();
-            //                outOfDate.Display();
-            //                break;
-            //            }
-            //        case 4:
-            //            {
-            //                return;
-            //            }
-            //    }
+            Console.WriteLine("1.Them hang hoa");
+            Console.WriteLine("2.Xuat hang ton kho");
+            Console.WriteLine("3.Xuat hang het han");
+            GoodsInventory inventory = new GoodsInventory();
+            GoodsOutOfDate outOfDate = new GoodsOutOfDate();
+            while (true)
+            {
+                int key = Convert.ToInt32(Console.ReadLine());
+                switch (key)
+                {
+                    case 1:
+                        {
+                            inventory.AddInventory();
+                            break;
+                        }
+                    case 2:
+                        {
+                            inventory.DisplayInventory();
+                            break;
+                        }
+                    case 3:
+                        {
+                            outOfDate.AddOutOfDate();
+                            outOfDate.DisplayOutOfDay();
+                            break;
+                        }
+                    case 4:
+                        {
+                            return;
+                        }
+                }
 
-            //}
+            }
         }
     }
 }
