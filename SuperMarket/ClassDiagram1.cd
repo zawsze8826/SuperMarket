@@ -91,18 +91,18 @@
       <FileName>GoodsPotential.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SuperMarket.Custumer" Collapsed="true">
+  <Class Name="SuperMarket.Customer" Collapsed="true">
     <Position X="23.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAKBAgAAAwAIAAJAAAEAQQCAAEAIAgAAggAAIIICAAI=</HashCode>
-      <FileName>Custumer.cs</FileName>
+      <FileName>Customer.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SuperMarket.CustumerBronze" Collapsed="true">
+  <Class Name="SuperMarket.CustomerBronze" Collapsed="true">
     <Position X="21.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CustumerBronze.cs</FileName>
+      <FileName>CustomerBronze.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SuperMarket.CustumerUnrank" Collapsed="true">
@@ -112,25 +112,25 @@
       <FileName>CustumerUnRank.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SuperMarket.CustumerSilver" Collapsed="true">
+  <Class Name="SuperMarket.CustmerSilver" Collapsed="true">
     <Position X="23.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CustumerSilver.cs</FileName>
+      <FileName>CustmerSilver.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SuperMarket.CustumerGold" Collapsed="true">
+  <Class Name="SuperMarket.CustomerGold" Collapsed="true">
     <Position X="25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CustumerGold.cs</FileName>
+      <FileName>CustomerGold.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SuperMarket.CustumerDiamond" Collapsed="true">
+  <Class Name="SuperMarket.CustmerDiamond" Collapsed="true">
     <Position X="26.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CustumerDiamond.cs</FileName>
+      <FileName>CustmerDiamond.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SuperMarket.Supplier" Collapsed="true">

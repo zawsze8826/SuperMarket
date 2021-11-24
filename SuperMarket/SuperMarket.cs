@@ -8,7 +8,7 @@ namespace SuperMarket
 {
     class SuperMarket
     {
-        public static List<Custumer> CustumerList = new List<Custumer>();
+        public static List<Customer> CustomerList = new List<Customer>();
         public static List<Staff> StaffList = new List<Staff>();
         public static List<Supplier> SupplierList = new List<Supplier>();
         public static List<Goods> InventorieList = new List<Goods>();

@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace SuperMarket
 {
-     class CustumerUnrank : Custumer
+     class CustomerUnRank : Customer
     {
         public override void Display()
         {
-            foreach (Custumer cus in SuperMarket.CustumerList)
+            foreach (Customer cus in SuperMarket.CustomerList)
             {
                 if (cus.Rank == "UnRank")
                 {
-                    Console.WriteLine("{0}  {1}  {2}  {3}  {4}  {5}", cus.IdCustumer, cus.NameCustumer, cus.AddressCustumer, cus.PhoneNumCustumer, cus.BirthDayCustumer.ToString("dd/MM/yyyy"), cus.Rank);
+                    Console.WriteLine("{0}  {1}  {2}  {3}  {4}  {5}", cus.IDCustomer, cus.NameCustomer, cus.AddressCustomer, cus.PhoneNumCustomer, cus.BirthDayCustomer.ToString("dd/MM/yyyy"), cus.Rank);
                 }
             }
         }

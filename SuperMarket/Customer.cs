@@ -6,61 +6,61 @@ using System.Threading.Tasks;
 
 namespace SuperMarket
 {
-    class Custumer
+    class Customer
     {
-        private string idCustumer;
-        private string nameCustumer;
-        private string addressCustumer;
-        private string phoneNumCustumer;
-        private DateTime birthDayCustumer;
+        private string idCustomer;
+        private string nameCustomer;
+        private string addressCustomer;
+        private string phoneNumCustomer;
+        private DateTime birthDayCustomer;
         private int accumulatedPoints;
         private string rank;
         private double discount;
-        public string IdCustumer {   get => idCustumer; set => idCustumer = value; }
-        public string NameCustumer { get => nameCustumer; set => nameCustumer = value; }
-        public string AddressCustumer { get => addressCustumer; set => addressCustumer = value; }
-        public string PhoneNumCustumer { get => phoneNumCustumer; set => phoneNumCustumer = value; }
-        public DateTime BirthDayCustumer { get => birthDayCustumer; set => birthDayCustumer = value; }
+        public string IDCustomer {   get => idCustomer; set => idCustomer = value; }
+        public string NameCustomer { get => nameCustomer; set => nameCustomer = value; }
+        public string AddressCustomer { get => addressCustomer; set => addressCustomer = value; }
+        public string PhoneNumCustomer { get => phoneNumCustomer; set => phoneNumCustomer = value; }
+        public DateTime BirthDayCustomer { get => birthDayCustomer; set => birthDayCustomer = value; }
         public int AccumulatedPoints { get => accumulatedPoints; set => accumulatedPoints = value; }
         public string Rank { get => rank; set => rank = value; }
         public double Discount { get => discount; set => discount = value; }
 
-        public Custumer() 
+        public Customer() 
         { }
-        ~ Custumer()
+        ~ Customer()
         { }
         public void CreatecCustumer()
         {
             int temp = 0;
-            Custumer cus = new Custumer();
+            Customer cus = new Customer();
 
-            if (SuperMarket.CustumerList.Count == 0)
+            if (SuperMarket.CustomerList.Count == 0)
             {
-                cus.IdCustumer = "CU1";
+                cus.IDCustomer = "CU1";
             }
             else
             {
-                foreach (Custumer c in SuperMarket.CustumerList)
+                foreach (Customer c in SuperMarket.CustomerList)
                 {
-                    temp = Convert.ToInt32(c.IdCustumer.Substring(2));
+                    temp = Convert.ToInt32(c.IDCustomer.Substring(2));
                 }
-                cus.IdCustumer = "CU" + Convert.ToString(temp + 1);
+                cus.IDCustomer = "CU" + Convert.ToString(temp + 1);
             }
 
             Console.Write("Nhap ten khach hang: ");
-            cus.NameCustumer = Console.ReadLine();
+            cus.NameCustomer = Console.ReadLine();
 
             Console.Write("Nhap so dien thoai khac hang:");
-            cus.PhoneNumCustumer = Console.ReadLine();
+            cus.PhoneNumCustomer = Console.ReadLine();
 
             Console.Write("Nhap dia chi khach hang:");
-            cus.AddressCustumer = Console.ReadLine();
+            cus.AddressCustomer = Console.ReadLine();
 
             Console.Write("Nhap ngay, thang. nam sinh:");
             int day = Convert.ToInt32(Console.ReadLine());
             int month = Convert.ToInt32(Console.ReadLine());
             int year = Convert.ToInt32(Console.ReadLine());
-            cus.BirthDayCustumer = new DateTime(year, month, day);
+            cus.BirthDayCustomer = new DateTime(year, month, day);
 
             cus.AccumulatedPoints = 0;
 
@@ -68,7 +68,7 @@ namespace SuperMarket
 
             cus.Discount = 0;
 
-            SuperMarket.CustumerList.Add(cus);
+            SuperMarket.CustomerList.Add(cus);
         }
 
         public void UpdateRank()
@@ -77,9 +77,9 @@ namespace SuperMarket
             string idCus = Console.ReadLine();
             Console.Write("Nhap so tien khach hang mua them:");
             int newmoney = Int32.Parse(Console.ReadLine());
-            foreach (Custumer cus in SuperMarket.CustumerList)
+            foreach (Customer cus in SuperMarket.CustomerList)
             {
-                if (idCus == cus.IdCustumer)
+                if (idCus == cus.IDCustomer)
                 {
                     int updatemoney = cus.AccumulatedPoints + newmoney;
                     cus.AccumulatedPoints = updatemoney;
@@ -114,11 +114,11 @@ namespace SuperMarket
             string idCus = Console.ReadLine();
             Console.Write("Doi ten thanh:");
             string name = Console.ReadLine();
-            foreach (Custumer cus in SuperMarket.CustumerList)
+            foreach (Customer cus in SuperMarket.CustomerList)
             {
-                if (idCus == cus.IdCustumer)
+                if (idCus == cus.IDCustomer)
                 {
-                    cus.NameCustumer = name;
+                    cus.NameCustomer = name;
                 }
             }
         }
@@ -129,11 +129,11 @@ namespace SuperMarket
             string idCus = Console.ReadLine();
             Console.Write("Doi dia chi thanh:");
             string address = Console.ReadLine();
-            foreach (Custumer cus in SuperMarket.CustumerList)
+            foreach (Customer cus in SuperMarket.CustomerList)
             {
-                if (idCus == cus.IdCustumer)
+                if (idCus == cus.IDCustomer)
                 {
-                    cus.AddressCustumer = address;
+                    cus.AddressCustomer = address;
                 }
             }
         }
@@ -144,11 +144,11 @@ namespace SuperMarket
             string idCus = Console.ReadLine();
             Console.Write("Doi sdt thanh:");
             string phoneNum = Console.ReadLine();
-            foreach (Custumer cus in SuperMarket.CustumerList)
+            foreach (Customer cus in SuperMarket.CustomerList)
             {
-                if (idCus == cus.IdCustumer)
+                if (idCus == cus.IDCustomer)
                 {
-                    cus.PhoneNumCustumer = phoneNum;
+                    cus.PhoneNumCustomer = phoneNum;
                 }
             }
         }
@@ -159,9 +159,9 @@ namespace SuperMarket
 
         public virtual void Display()
         {
-            foreach (Custumer cus in SuperMarket.CustumerList)
+            foreach (Customer cus in SuperMarket.CustomerList)
             {
-                Console.WriteLine("{0}  {1}  {2}  {3}  {4}  {5}", cus.IdCustumer, cus.NameCustumer, cus.AddressCustumer, cus.PhoneNumCustumer, cus.BirthDayCustumer.ToString("dd/MM/yyyy"), cus.Rank);
+                Console.WriteLine("{0}  {1}  {2}  {3}  {4}  {5}", cus.IDCustomer, cus.NameCustomer, cus.AddressCustomer, cus.PhoneNumCustomer, cus.BirthDayCustomer.ToString("dd/MM/yyyy"), cus.Rank);
             }
         }
     }
